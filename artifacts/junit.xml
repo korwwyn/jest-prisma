@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" time="3.102">
+  <testsuite name="Tests that can be performed on the Todo Mutation" errors="0" failures="0" skipped="0" timestamp="2020-05-22T08:40:34" time="1.736" tests="4">
+    <testcase classname="Tests that can be performed on the Todo Mutation should not allow an authenticated user create a TODO " name="Tests that can be performed on the Todo Mutation should not allow an authenticated user create a TODO " time="0.043">
+    </testcase>
+    <testcase classname="Tests that can be performed on the Todo Mutation should create a todo for a authenticated user" name="Tests that can be performed on the Todo Mutation should create a todo for a authenticated user" time="0.046">
+    </testcase>
+    <testcase classname="Tests that can be performed on the Todo Mutation should update a TODO" name="Tests that can be performed on the Todo Mutation should update a TODO" time="0.037">
+    </testcase>
+    <testcase classname="Tests that can be performed on the Todo Mutation should delete a TODO" name="Tests that can be performed on the Todo Mutation should delete a TODO" time="0.044">
+    </testcase>
+  </testsuite>
+  <testsuite name="Tests the createUser Mutation" errors="0" failures="0" skipped="0" timestamp="2020-05-22T08:40:36" time="0.388" tests="3">
+    <testcase classname="Tests the createUser Mutation should not signup a user with a password less than 8 characters" name="Tests the createUser Mutation should not signup a user with a password less than 8 characters" time="0.032">
+    </testcase>
+    <testcase classname="Tests the createUser Mutation should successfully create a user with valid credentials" name="Tests the createUser Mutation should successfully create a user with valid credentials" time="0.041">
+    </testcase>
+    <testcase classname="Tests the createUser Mutation should not create two users with the same crededntials" name="Tests the createUser Mutation should not create two users with the same crededntials" time="0.038">
+    </testcase>
+  </testsuite>
+  <testsuite name="the Queries that can be performed on TODO and USER type" errors="0" failures="0" skipped="0" timestamp="2020-05-22T08:40:36" time="0.281" tests="1">
+    <testcase classname="the Queries that can be performed on TODO and USER type should be able to see author&apos;s profile without sensitive info being displayed" name="the Queries that can be performed on TODO and USER type should be able to see author&apos;s profile without sensitive info being displayed" time="0.032">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -16,6 +16,17 @@
 3. run `prisma generate`
 4. run `npm run test`
 
+### How to run preparations
+
+```javascript
+npm run dev
+```
+
+### Generate human-readable report
+```
+xunit-viewer -r artifacts
+```
+
 ### This project consists of two braches 
 1. The `start` branch
    - This branch contains all the beginnner starter files and can be modified when following the article step by step. 
